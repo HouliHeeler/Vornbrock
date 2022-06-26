@@ -7,16 +7,14 @@ const OurWork = () => {
         <h1>Our Work</h1>
       </section>
       <section>
-        <section>
-          <img></img>
-          <span>McDonalds, Alberta</span>
-          <img></img>
-          <span>Childcare Centre, Vancouve</span>
-          <img></img>
-          <span>Walter Gage Residences, UBC</span>
-          <img></img>
-          <span>McDonalds, Manitoba</span>
-        </section>
+        <img></img>
+        <span>McDonalds, Alberta</span>
+        <img></img>
+        <span>Childcare Centre, Vancouve</span>
+        <img></img>
+        <span>Walter Gage Residences, UBC</span>
+        <img></img>
+        <span>McDonalds, Manitoba</span>
       </section>
     </div>
   );
