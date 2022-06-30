@@ -8,11 +8,11 @@ const NavBar = () => {
                 <Link to="/" activeStyle>
                     Home
                 </Link>
-                <Link to="/OurTeam" activeStyle>
-                    Our Team
-                </Link>
                 <Link to="/OurWork" activeStyle>
                     Our Work
+                </Link>
+                <Link to="/OurTeam" activeStyle>
+                    Our Team
                 </Link>
                 <Link to="/Careers" activeStyle>
                     Careers

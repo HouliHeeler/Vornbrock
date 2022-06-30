@@ -4,8 +4,8 @@ const OurWork = () => {
   return (
     <div class='mainDiv'>
       <section>
-      <img class='mainImages' src={process.env.PUBLIC_URL + '/images/workHeading.jpg'}></img>
-        <h1 class ='workHeader'>Our Work</h1>
+        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/workHeading.jpg'}></img>
+        <h1 class='workHeader'>Our Work</h1>
       </section>
       <section class='workInfo'>
         <section class='siteDisplay'>

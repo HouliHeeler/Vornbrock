@@ -2,16 +2,17 @@ import React from 'react';
   
 const Careers = () => {
   return (
-    <div>
+    <div class='mainDiv'>
       <section>
-        <h1>Careers</h1>
+        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/careersHeading.jpg'}></img>
+        <h1 class='careerHeader'>Careers</h1>
       </section>
-      <section>
-        <h4>We are hiring</h4>
+      <section class='careerInfo'>
+        <h2>We are hiring</h2>
         <p>
         R. Vornbrock is committed to creating a supportive atmosphere that facilitates growth in its team members. We firmly believe in work-life balance and an inclusive and respectful workplace. In-office, semi-remote, and remote positions are available.
         </p>
-        <h4>Intermediate Commercial Interior Designer</h4>
+        <h2>Intermediate Commercial Interior Designer</h2>
         <span>Minimum Level of Experience:</span>
         <ul>
           <li>3-5 years of post-graduate experience as a commercial interior designe</li>
@@ -24,7 +25,7 @@ const Careers = () => {
           <li>Excellent communication &amp; listening skills</li>
           <li>Ability to adapt to a fast-paced environment</li>
         </ul>
-        <h4>Interior Design AutoCAD Technician</h4>
+        <h2>Interior Design AutoCAD Technician</h2>
         <span>Minimum Level of Experience:</span>
         <ul>
           <li>2 years of post-graduate experience as an AutoCAD Technician in the architecture or interior design field</li>
@@ -36,8 +37,8 @@ const Careers = () => {
           <li>Excellent communication &amp; listening skills</li>
           <li>Ability to adapt to a fast-paced environment</li>
         </ul>
-        <span>Please forward resumes and pdf portfolios to: kate@vornbrock.com</span>
-        <span>Please note that only those selected for an interview will be contacted.</span>
+        <span class='careerNote'>Please forward resumes and pdf portfolios to: kate@vornbrock.com</span>
+        <span class='careerNote'>Please note that only those selected for an interview will be contacted.</span>
       </section>
     </div>
   );

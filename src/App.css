@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.teamHeader, .workHeader {
+.teamHeader, .workHeader, .careerHeader {
   font-size: 45px;
   position: absolute;
   top: 620px;
@@ -85,6 +85,7 @@
 .teamBlurb > p, .teamBlurb > h4 {
   max-width: 700px;
   margin: 10px;
+  line-height: 1.25;
 }
 
 h4 {
@@ -131,7 +132,25 @@ a {
   gap: 30px;
 }
 
-span {
+.careerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 700px 20px 40px 20px;
+  padding: 10px;
+}
+
+.careerInfo > h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.careerNote {
+  margin-top: 15px;
+}
+
+.siteDisplay > span {
   font-size: 24px;
   margin: 10px 0 20px 0;
 }
@@ -152,4 +171,5 @@ span {
 
 .mainBlurb > p {
   margin: 7px;
+  line-height: 1.5;
 }
