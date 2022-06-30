@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <ul>
+            <ul class='navBar'>
                 <Link to="/OurTeam" activeStyle>
                     Our Team
                 </Link>
