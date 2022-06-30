@@ -1,7 +1,7 @@
 import React from 'react';
 
   
-const Home = () => {
+const MainPage = () => {
   return (
     <div>
       <section>
@@ -21,5 +21,5 @@ const Home = () => {
   );
 };
 
-export default Home
+export default MainPage
   

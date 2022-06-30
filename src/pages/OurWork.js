@@ -2,19 +2,28 @@ import React from "react";
   
 const OurWork = () => {
   return (
-    <div>
+    <div class='mainDiv'>
       <section>
-        <h1>Our Work</h1>
+      <img class='mainImages' src={process.env.PUBLIC_URL + '/images/workHeading.jpg'}></img>
+        <h1 class ='workHeader'>Our Work</h1>
       </section>
-      <section>
-        <img></img>
-        <span>McDonalds, Alberta</span>
-        <img></img>
-        <span>Childcare Centre, Vancouve</span>
-        <img></img>
-        <span>Walter Gage Residences, UBC</span>
-        <img></img>
-        <span>McDonalds, Manitoba</span>
+      <section class='workInfo'>
+        <section class='siteDisplay'>
+          <img class='workImages' src={process.env.PUBLIC_URL + '/images/mcdonaldsAB1.jpg'} alt="McDonald's, Alberta"></img>
+          <span>McDonalds, Alberta</span>
+        </section>
+        <section class='siteDisplay'>
+          <img class='workImages' src={process.env.PUBLIC_URL + '/images/childcare1.jpg'} alt="Childcare Centre, Vancouver"></img>
+          <span>Childcare Centre, Vancouver</span>
+        </section>
+        <section class='siteDisplay'>
+          <img class='workImages' src={process.env.PUBLIC_URL + '/images/waltergage1.JPG'} alt="Walter Gage Residences, UBC"></img>
+          <span>Walter Gage Residences, UBC</span>
+        </section>
+        <section class='siteDisplay'>
+          <img class='workImages' src={process.env.PUBLIC_URL + '/images/mcdonaldsMB1.jpg'} alt="McDonald's, Manitoba"></img>
+          <span>McDonalds, Manitoba</span>
+        </section>
       </section>
     </div>
   );

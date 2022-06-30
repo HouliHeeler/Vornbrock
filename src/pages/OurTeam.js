@@ -2,7 +2,7 @@ import React from 'react';
   
 const OurTeam = () => {
   return (
-    <div class='mainDiv' >
+    <div class='mainDiv'>
       <section>
       <img class='mainImages' src={process.env.PUBLIC_URL + '/images/teamHeading.jpg'}></img>
         <h1 class ='teamHeader'>Our Team</h1>
