@@ -1,4 +1,8 @@
 import React from "react";
+import Carousel from "../components/carousel"
+import CarouselTwo from "../components/carousel2"
+import CarouselThree from "../components/carousel3";
+import CarouselFour from "../components/carousel4";
   
 const OurWork = () => {
   return (
@@ -9,19 +13,19 @@ const OurWork = () => {
       </section>
       <section class='workInfo'>
         <section class='siteDisplay'>
-          <img class='workImages' src={process.env.PUBLIC_URL + '/images/mcdonaldsAB1.jpg'} alt="McDonald's, Alberta"></img>
+          <Carousel />
           <span>McDonalds, Alberta</span>
         </section>
         <section class='siteDisplay'>
-          <img class='workImages' src={process.env.PUBLIC_URL + '/images/childcare1.jpg'} alt="Childcare Centre, Vancouver"></img>
+          <CarouselTwo />
           <span>Childcare Centre, Vancouver</span>
         </section>
         <section class='siteDisplay'>
-          <img class='workImages' src={process.env.PUBLIC_URL + '/images/waltergage1.JPG'} alt="Walter Gage Residences, UBC"></img>
+          <CarouselThree />
           <span>Walter Gage Residences, UBC</span>
         </section>
         <section class='siteDisplay'>
-          <img class='workImages' src={process.env.PUBLIC_URL + '/images/mcdonaldsMB1.jpg'} alt="McDonald's, Manitoba"></img>
+          <CarouselFour />
           <span>McDonalds, Manitoba</span>
         </section>
       </section>

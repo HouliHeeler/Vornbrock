@@ -15,7 +15,7 @@ const Careers = () => {
         <h2>Intermediate Commercial Interior Designer</h2>
         <span>Minimum Level of Experience:</span>
         <ul>
-          <li>3-5 years of post-graduate experience as a commercial interior designe</li>
+          <li>3-5 years of post-graduate experience as a commercial interior designer</li>
           <li>Education from an accredited institution in Interior Design</li>
           <li>Strong AutoCAD skills &amp; software knowledge, including sketchUp and Microsoft Office</li>
           <li>Strong understanding of Interior Design and Construction detailing, as well as building codes </li>
@@ -28,7 +28,7 @@ const Careers = () => {
         <h2>Interior Design AutoCAD Technician</h2>
         <span>Minimum Level of Experience:</span>
         <ul>
-          <li>2 years of post-graduate experience as an AutoCAD Technician in the architecture or interior design field</li>
+          <li>2 years of post-graduate experience as an AutoCAD Technician in the architecture or interior design fields</li>
           <li>Education from an accredited institution in a related field</li>
           <li>Strong AutoCAD skills &amp; software knowledge, including Microsoft Office</li>
           <li>Strong understanding of Interior Design and Construction detailing</li>
