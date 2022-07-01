@@ -37,7 +37,7 @@ const Careers = () => {
           <li>Excellent communication &amp; listening skills</li>
           <li>Ability to adapt to a fast-paced environment</li>
         </ul>
-        <span class='careerNote'>Please forward resumes and pdf portfolios to: kate@vornbrock.com</span>
+        <span class='careerNote'>Please forward resumes and pdf portfolios to: <a href="mailto:kate@vornbrock.com">kate@vornbrock.com</a></span>
         <span class='careerNote'>Please note that only those selected for an interview will be contacted.</span>
       </section>
     </div>

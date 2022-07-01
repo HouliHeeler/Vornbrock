@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  font-family: 'mulish';
 }
 
 .App-logo {
@@ -36,6 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'mulish';
+  margin: 0;
+  padding: 0;
 }
 
 .teamImages {
@@ -172,4 +177,34 @@ a {
 .mainBlurb > p {
   margin: 7px;
   line-height: 1.5;
+}
+
+.contactPage {
+  margin: 0;
+  padding: 0;
+}
+
+.contactBlurb {
+  margin: 150px 0 0 30px;
+}
+
+.contactBlurb > h4, .contactBlurb > h3 {
+  font-weight: 300;
+}
+
+.contactBlurb > h3 {
+  font-size: 28px;
+}
+
+.contactBlurb > h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.contactForm {
+  background-color: rgb(216, 209, 209);
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 400px;
 }
