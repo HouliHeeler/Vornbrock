@@ -4,7 +4,7 @@ const OurTeam = () => {
   return (
     <div class='mainDiv'>
       <section>
-      <img class='mainImages' src={process.env.PUBLIC_URL + '/images/teamHeading.jpg'}></img>
+      <img class='mainImages' src={process.env.PUBLIC_URL + '/images/teamHeading.jpg'} alt="decorative art"></img>
         <h1 class ='teamHeader'>Our Team</h1>
       </section>
       <section class='teamInfo'>

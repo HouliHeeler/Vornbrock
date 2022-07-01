@@ -4,7 +4,7 @@ const Careers = () => {
   return (
     <div class='mainDiv'>
       <section>
-        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/careersHeading.jpg'}></img>
+        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/careersHeading.jpg'} alt="decorative art"></img>
         <h1 class='careerHeader'>Careers</h1>
       </section>
       <section class='careerInfo'>
