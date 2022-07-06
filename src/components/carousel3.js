@@ -4,23 +4,23 @@ const CarouselThree = () => {
 
   const [slides] = useState([
       {
-        source: "/images/waltergage1.JPG",
+        source: "/images/transfer/waltergage/waltergage1.JPG",
         title: "Walter Gage Residences(1)",
       },
       {
-        source: "/images/waltergage2.JPG",
+        source: "/images/transfer/waltergage/waltergage2.JPG",
         title: "Walter Gage Residences(2)",
       },
       {
-        source: "/images/waltergage3.JPG",
+        source: "/images/transfer/waltergage/waltergage3.JPG",
         title: "Walter Gage Residences(3)",
       },
       {
-        source: "/images/waltergage4.JPG",
+        source: "/images/transfer/waltergage/waltergage4.JPG",
         title: "Walter Gage Residences(4)",
       },
       {
-        source: "/images/waltergage5.JPG",
+        source: "/images/transfer/waltergage/waltergage5.JPG",
         title: "Walter Gage Residences(5)",
       },
   ]);

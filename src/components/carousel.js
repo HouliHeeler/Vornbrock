@@ -4,31 +4,31 @@ const Carousel = () => {
 
   const [slides] = useState([
       {
-        source: "/images/mcdonaldsAB1.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB1.jpg",
         title: "McDonald's Alberta(1)",
       },
       {
-        source: "/images/mcdonaldsAB2.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB2.jpg",
         title: "McDonald's Alberta(2)"
       },
       {
-        source: "/images/mcdonaldsAB3.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB3.jpg",
         title: "McDonald's Alberta(3)"
       },
       {
-        source: "/images/mcdonaldsAB4.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB4.jpg",
         title: "McDonald's Alberta()"
       },
       {
-        source: "/images/mcdonaldsAB5.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB5.jpg",
         title: "McDonald's Alberta(5)"
       },
       {
-        source: "/images/mcdonaldsAB6.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB6.jpg",
         title: "McDonald's Alberta(6)"
       },
       {
-        source: "/images/mcdonaldsAB7.jpg",
+        source: "/images/transfer/mcdonaldsAB/mcdonaldsAB7.jpg",
         title: "McDonald's Alberta(7)"
       },
 

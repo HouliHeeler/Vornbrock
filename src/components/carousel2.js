@@ -4,23 +4,23 @@ const CarouselTwo = () => {
 
   const [slides] = useState([
       {
-        source: "/images/childcare1.jpg",
+        source: "/images/transfer/childcare/childcare1.jpg",
         title: "Vancouver Childcare Center(1)",
       },
       {
-        source: "/images/childcare2.jpg",
+        source: "/images/transfer/childcare/childcare2.jpg",
         title: "Vancouver Childcare Center(2)",
       },
       {
-        source: "/images/childcare3.jpg",
+        source: "/images/transfer/childcare/childcare3.jpg",
         title: "Vancouver Childcare Center(3)",
       },
       {
-        source: "/images/childcare4.jpg",
+        source: "/images/transfer/childcare/childcare4.jpg",
         title: "Vancouver Childcare Center(4)",
       },
       {
-        source: "/images/childcare5.jpg",
+        source: "/images/transfer/childcare/childcare5.jpg",
         title: "Vancouver Childcare Center(5)",
       },
   ]);
