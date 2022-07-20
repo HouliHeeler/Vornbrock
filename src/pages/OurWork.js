@@ -8,7 +8,7 @@ const OurWork = () => {
   return (
     <div class='mainDiv'>
       <section>
-        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/workheading.jpg'} alt="decorative art"></img>
+        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/workheading.jpg'}></img>
         <h1 class='workHeader'>Our Work</h1>
       </section>
       <section class='workInfo'>

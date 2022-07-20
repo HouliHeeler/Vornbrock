@@ -5,7 +5,7 @@ const MainPage = () => {
   return (
     <div class='mainDiv'>
       <section>
-        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/homeheading.jpg'} alt="decorative art"></img>
+        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/homeheading.jpg'}></img>
         <section className='homeHeader'>
           <h3 style={{fontSize:'2.5rem',fontWeight:'lighter', margin:'2.5rem 1.25rem .6rem 0', padding:'0 1.875rem'}}>R.Vornbrock</h3>
           <h1 style={{fontSize:'3.75rem',fontWeight:'lighter', margin:'0 1.25rem 13rem 0', padding:'0 1.875rem'}}>Interior Design</h1>
