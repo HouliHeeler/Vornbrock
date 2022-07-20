@@ -4,15 +4,15 @@ import React from 'react';
 const MainPage = () => {
   return (
     <div class='mainDiv'>
-      <section >
+      <section>
         <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/homeheading.jpg'} alt="decorative art"></img>
         <section className='homeHeader'>
-          <h3 style={{fontSize:'40px',fontWeight:'lighter', margin:'40px 20px 10px 0', padding:'0 30px'}}>R.Vornbrock</h3>
-          <h1 style={{fontSize:'60px',fontWeight:'lighter', margin:'0 20px 30vh 0', padding:'0 30px'}}>Interior Design</h1>
-          <h4 style={{fontSize:'20px',fontWeight:'600', margin:'0', padding:'10px 30px'}}>Space Planning</h4>
-          <h4 style={{fontSize:'20px',fontWeight:'600', margin:'0', padding:'10px 30px'}}>Conceptual Design</h4>
-          <h4 style={{fontSize:'20px',fontWeight:'600', margin:'0', padding:'10px 30px'}}>Construction Documentation</h4>
-          <h4 style={{fontSize:'20px',fontWeight:'600', margin:'0', padding:'10px 30px'}}>Contract Admin</h4>
+          <h3 style={{fontSize:'2.5rem',fontWeight:'lighter', margin:'2.5rem 1.25rem .6rem 0', padding:'0 1.875rem'}}>R.Vornbrock</h3>
+          <h1 style={{fontSize:'3.75rem',fontWeight:'lighter', margin:'0 1.25rem 13rem 0', padding:'0 1.875rem'}}>Interior Design</h1>
+          <h4 style={{fontSize:'1.25rem',fontWeight:'600', margin:'0', padding:'.6rem 1.875rem'}}>Space Planning</h4>
+          <h4 style={{fontSize:'1.25rem',fontWeight:'600', margin:'0', padding:'.6rem 1.875rem'}}>Conceptual Design</h4>
+          <h4 style={{fontSize:'1.25rem',fontWeight:'600', margin:'0', padding:'.6rem 1.875rem'}}>Construction Documentation</h4>
+          <h4 style={{fontSize:'1.25rem',fontWeight:'600', margin:'0', padding:'.6rem 1.875rem'}}>Contract Admin</h4>
         </section>
       </section>
       <section class='mainBlurb'>
