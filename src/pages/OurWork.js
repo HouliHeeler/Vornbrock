@@ -1,30 +1,30 @@
-import React from "react";
+import React from "react"
 import Carousel from "../components/carousel"
 import CarouselTwo from "../components/carousel2"
-import CarouselThree from "../components/carousel3";
-import CarouselFour from "../components/carousel4";
+import CarouselThree from "../components/carousel3"
+import CarouselFour from "../components/carousel4"
   
 const OurWork = () => {
   return (
-    <div class='mainDiv'>
+    <div className='mainDiv'>
       <section>
-        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/workheading.jpg'}></img>
-        <h1 class='workHeader'>Our Work</h1>
+        <img className='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/workheading.jpg'} alt='decorative art'></img>
+        <h1 className='workHeader'>Our Work</h1>
       </section>
-      <section class='workInfo'>
-        <section class='siteDisplay'>
+      <section className='workInfo'>
+        <section className='siteDisplay'>
           <Carousel />
           <span>McDonalds, Alberta</span>
         </section>
-        <section class='siteDisplay'>
+        <section className='siteDisplay'>
           <CarouselTwo />
           <span>Childcare Centre, Vancouver</span>
         </section>
-        <section class='siteDisplay'>
+        <section className='siteDisplay'>
           <CarouselThree />
           <span>Walter Gage Residences, UBC</span>
         </section>
-        <section class='siteDisplay'>
+        <section className='siteDisplay'>
           <CarouselFour />
           <span>McDonalds, Manitoba</span>
         </section>

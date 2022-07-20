@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <ul class='navBar'>
-                <Link to="/" activeStyle>
+            <ul className='navBar'>
+                <Link to="/" activestyle="true">
                     Home
                 </Link>
-                <Link to="/OurWork" activeStyle>
+                <Link to="/OurWork" activestyle="true">
                     Our Work
                 </Link>
-                <Link to="/OurTeam" activeStyle>
+                <Link to="/OurTeam" activestyle="true">
                     Our Team
                 </Link>
-                <Link to="/Careers" activeStyle>
+                <Link to="/Careers" activestyle="true">
                     Careers
                 </Link>
-                <Link to="/Contact" activeStyle>
+                <Link to="/Contact" activestyle="true">
                     Contact
                 </Link>
             </ul>

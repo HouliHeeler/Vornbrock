@@ -2,12 +2,12 @@ import React from 'react';
   
 const Careers = () => {
   return (
-    <div class='mainDiv'>
+    <div className='mainDiv'>
       <section>
-        <img class='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/careersheading.jpg'}></img>
-        <h1 class='careerHeader'>Careers</h1>
+        <img className='mainImages' src={process.env.PUBLIC_URL + '/images/transfer/mainimages/careersheading.jpg'} alt='decorative art'></img>
+        <h1 className='careerHeader'>Careers</h1>
       </section>
-      <section class='careerInfo'>
+      <section className='careerInfo'>
         <h2>We are hiring</h2>
         <p>
         R. Vornbrock is committed to creating a supportive atmosphere that facilitates growth in its team members. We firmly believe in work-life balance and an inclusive and respectful workplace. In-office, semi-remote, and remote positions are available.
@@ -37,8 +37,8 @@ const Careers = () => {
           <li>Excellent communication &amp; listening skills</li>
           <li>Ability to adapt to a fast-paced environment</li>
         </ul>
-        <span class='careerNote'>Please forward resumes and pdf portfolios to: <a href="mailto:kate@vornbrock.com">kate@vornbrock.com</a></span>
-        <span class='careerNote'>Please note that only those selected for an interview will be contacted.</span>
+        <span className='careerNote'>Please forward resumes and pdf portfolios to: <a href="mailto:kate@vornbrock.com">kate@vornbrock.com</a></span>
+        <span className='careerNote'>Please note that only those selected for an interview will be contacted.</span>
       </section>
     </div>
   );
