@@ -160,6 +160,9 @@ h4 {
 /* Contact Page Styling */
 
 .contactPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -186,7 +189,7 @@ h4 {
   margin: 0;
   padding: 0;
   min-width: 100vw;
-  min-height: 25rem;
+  min-height: 65%;
 }
 
 @media only screen and (max-width: 600px) {
